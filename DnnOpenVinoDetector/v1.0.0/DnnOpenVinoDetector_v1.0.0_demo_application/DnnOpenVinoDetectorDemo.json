@@ -1,0 +1,43 @@
+{
+    "Params": {
+        "objectDetector": {
+            "custom1": 0.0,
+            "custom2": 0.0,
+            "custom3": 0.0,
+            "enable": true,
+            "frameBufferSize": 1,
+            "initString": "yolov7-tiny_640x640.onnx;640;640",
+            "logMode": 0,
+            "maxObjectHeight": 128,
+            "maxObjectWidth": 128,
+            "maxXSpeed": 0.0,
+            "maxYSpeed": 0.0,
+            "minDetectionProbability": 0.5,
+            "minObjectHeight": 4,
+            "minObjectWidth": 4,
+            "minXSpeed": 0.0,
+            "minYSpeed": 0.0,
+            "numThreads": 1,
+            "resetCriteria": 0,
+            "scaleFactor": 1,
+            "sensitivity": 0,
+            "type": 1,
+            "xDetectionCriteria": 1,
+            "yDetectionCriteria": 1
+        },
+        "videoSource": {
+            "custom1": -1.0,
+            "custom2": -1.0,
+            "custom3": -1.0,
+            "exposureMode": 1,
+            "focusMode": 1,
+            "fourcc": "BGR24",
+            "fps": 0.0,
+            "gainMode": 1,
+            "height": 0,
+            "logLevel": 0,
+            "source": "file dialog",
+            "width": 0
+        }
+    }
+}
